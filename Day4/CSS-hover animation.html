@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-hover animation</title>
+</head>
+<style type="text/css">
+    #Main li ul li{display:none;}
+			#Main li:hover ul li{display:block;}
+			#Main li:hover ul li ul li{display:none;}
+			#Main li ul li:hover ul li{display:block;}
+			#Main li ul li:hover ul li ul li{display:none;}
+			#Main li ul li ul li:hover ul li{display:block;}
+
+
+</style>
+<body>
+    <ul id="Main">
+        <li>
+            Google
+            <ul>
+                <li>
+                    Gmail
+                    <ul>
+                        <li>Sing up</li>
+                        <li>Sign in</li>
+                        <ul>
+                           <li>Sign in as Admin</li>
+                           <li>Sign in as Member</li>
+                        
+                        </ul>
+                    </ul>
+                </li>
+                <li>Youtube
+                    <ul>
+                        <li>Search</li>
+                        <li>Play</li>
+                        <li>Pause</li>
+                        <li>See Time Line</li>
+                    </ul>
+                </li>
+                <li>Play Store
+                    <ul>
+                        <li>Search Application</li>
+                        <li>Download Application</li>
+                        <li>Do In-App Purchase</li>
+                    </ul>
+                </li>
+                <li>Chrome
+                    <ul>
+                        <li>Search</li>
+                        <li>New Tab</li>
+                        <li>Close Tab</li>
+                        <li>Incognito Tab</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Facebook</li>
+        <li>Microsoft
+            <ul>
+             <li>Bing</li>
+                <li>Linked In</li>
+            </ul>
+     </li>
+        <li>MSN</li>
+        <li>Amazon
+             <ul>
+             <li>AWS</li>
+                <li>E-commerse
+                    <ul>
+                        <li>Search Product</li>
+                    </ul>
+                </li>
+                <li>A-ML</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
